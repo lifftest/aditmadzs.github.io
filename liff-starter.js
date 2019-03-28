@@ -164,8 +164,8 @@ function meProfile(){
         if (stat == null) {
             var stat = " - ";
         }
-        if (stat.length > 60) {
-            var stat = "Status Message is to long! Max 60 words";
+        if (stat.length > 100) {
+            var stat = "MAX STATUS MESSAGE ADITMADZS LIFF 100 WORDS";
         }
         if (tipe === 'profile') {
             liff.sendMessages([{
