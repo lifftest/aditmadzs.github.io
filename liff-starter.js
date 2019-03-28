@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1604506891-gLAxM4Ad?type=text&text=Your%20Text/n/n/ntype=text/ntext= your text'
+                text: 'line://app/1604506891-gLAxM4Ad?type=text&text=Your%20Text/n/n/ntype=text/ntext=your text'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -148,7 +148,7 @@ function makeSticker(){
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+ep,
                  action: {
                      type: "uri",
-                     uri: "line://shop/sticker/detail/"+pkg}}
+                     uri: "line.me/ti/p/~adit_cmct"}}
                           ]
                         }
         }]).then(function () {
