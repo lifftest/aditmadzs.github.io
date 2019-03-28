@@ -39,6 +39,14 @@ function getP(){
                 liff.closeWindow();
             });
         });
+        document.getElementById('mex').addEventListener('click', function () {
+            liff.sendMessages([{
+                type: 'text',
+                text: 'line://app/1604506891-gLAxM4Ad?type=profile'
+            }]).then(function () {
+                liff.closeWindow();
+            });
+        });
         document.getElementById('stickerx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
