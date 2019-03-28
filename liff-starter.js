@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1604506891-gLAxM4Ad?type=text&text=Your%20Text/n/n/ntype=text/ntext=your text'
+                text: 'line://app/1604506891-gLAxM4Ad?type=text&text=Your%20Text\n\n\ntype=text\ntext=your text'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -148,7 +148,7 @@ function makeSticker(){
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+ep,
                  action: {
                      type: "uri",
-                     uri: "line.me/ti/p/~adit_cmct"}}
+                     uri: "http://line.me/ti/p/~adit_cmct"}}
                           ]
                         }
         }]).then(function () {
@@ -165,7 +165,7 @@ function meProfile(){
             var stat = " - ";
         }
         if (stat.length > 100) {
-            var stat = "MAX STATUS MESSAGE ADITMADZS LIFF 100 WORDS";
+            var stat = "MAX STATUS MESSAGE ADITMADZS 100 WORDS";
         }
         if (tipe === 'profile') {
             liff.sendMessages([{
