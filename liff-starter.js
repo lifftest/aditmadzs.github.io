@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'text'
+                text: 'line://app/1604506891-gLAxM4Ad?type=text&text=Your%20Text/n/n/ntype=text/ntext= your text'
             }]).then(function () {
                 liff.closeWindow();
             });
